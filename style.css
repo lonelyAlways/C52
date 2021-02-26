@@ -1,0 +1,72 @@
+body{
+    background-color: rgba(0, 0, 0, 0.466);
+}
+h1{
+    color:"#202c74";
+    margin-left:100px;
+}
+.header *{
+    border:solid
+}
+
+.header{
+    
+    display:flex;
+    justify-content: space-between;
+}
+ 
+.menu{
+    text-align: justify;
+}
+
+.menu a{  
+    margin-left: 50px;
+}
+
+.Grid{
+    
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:space-evenly; 
+}
+
+.game{
+    display:flex;
+    justify-content:space-evenly
+}
+.social{
+    display:flex;
+    justify-content:flex-end ;
+}
+
+p,h2{
+    text-align: center;
+}
+
+a:link{
+    color:darkblue;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+.game{
+    position:relative;
+}
+
+.game h2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.game:hover h2{
+    opacity:1;
+}
+
+.game:hover img{
+    opacity:0.33;
+}
